@@ -11,8 +11,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 **Desktop**
 
-<img src="./solution/desktop.png" height=90% width=90%>
+<img src="./solution/desktop.png" height=100% width=100%>
 
 **Mobile**
 
-<img src="./solution/mobile.png" height=30% width=30%>
+<img src="./solution/mobile.png" height=35% width=35%>
