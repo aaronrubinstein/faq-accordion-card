@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>FAQ Accordion Card</title>
+</head>
+<body>
+  <main class="card">
+    <div class="img-container">
+      <div class="main-illustration-container">
+        <img src="images/illustration-woman-online-desktop.svg" alt="Illustration of a woman at a computer" class="desktop-img">
+      </div>
+      <img src="images/illustration-box-desktop.svg" alt="" class="desktop-box-img">
+    </div>
+    <img src="images/illustration-woman-online-mobile.svg" alt="Illustration of a woman at a computer" class="mobile-img">
+    <div class="content-container">
+      <h1>FAQ</h1>
+      <ul>
+        <li>
+          <input type="radio" name="question" id="q1">
+          <label for="q1">
+            How many team members can I invite?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow">
+          </label>
+          <div class="answer">
+            <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="question" id="q2" checked>
+          <label for="q2">
+            What is the maximum file upload size?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow">
+          </label>
+          <div class="answer">
+            <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="question" id="q3">
+          <label for="q3">
+            How do I reset my password?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow">
+          </label>
+          <div class="answer">
+            <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="question" id="q4">
+          <label for="q4">
+            Can I cancel my subscription?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow">
+          </label>
+          <div class="answer">
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="question" id="q5">
+          <label for="q5">
+            Do you provide additional support?
+            <img src="images/icon-arrow-down.svg" alt="arrow" class="arrow">
+          </label>
+          <div class="answer">
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
